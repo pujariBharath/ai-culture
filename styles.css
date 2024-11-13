@@ -134,11 +134,11 @@ nav ul li a {
 /* Brands section styles */
 .brands {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 2rem;
     background-color: var(--background-color);
-    border-top: 1px solid var(--border-color);
+    border-top: 1px solid var(--border2color);
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -365,14 +365,29 @@ nav ul li a {
 }
 
 .contact-image {
-    size: 400PX;
+    size: 350PX;
+    border-radius: 10px;
+
 }
 
 .contact-image img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
     object-fit: cover;
     border-radius: 8px;
+}
+.bth {
+    size: 200PX;
+    border-radius: 10px;
+}
+.bth img{
+    size: 200PX;
+    height: auto;
+    width: auto;
+    
+
+    border-radius: 10px;
 }
 
 #contact-form {

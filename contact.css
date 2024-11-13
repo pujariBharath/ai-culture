@@ -1,10 +1,9 @@
-/* styles.css */
 :root {
     --primary-color: #000;
     --secondary-color: #333;
     --background-color: #fff;
     --text-color: #333;
-    --muted-color: #666;
+    --muted-color: #f7f4f4;
     --border-color: #e0e0e0;
 }
 
@@ -166,6 +165,9 @@ input {
     font-size: 2rem;
     
     letter-spacing: 0.1rem;
+}
+.hero-content p {
+    color: rgba(0, 0, 0, 0.6);
 }
 .hero h3{
     margin-bottom: 1rem;
